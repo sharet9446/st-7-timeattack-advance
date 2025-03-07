@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 export default function TodoList({ todos }) {
+  console.log("🚀 ~ TodoList ~ todos:", todos);
   const navigate = useNavigate();
   return (
     <ul style={{ listStyle: "none", width: 250 }}>
